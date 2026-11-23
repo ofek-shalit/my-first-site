@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
-  background: #faf7f2;
+  background: #E3F2FD;
   color: #2b2b2b;
   line-height: 1.7;
 }
@@ -93,7 +93,7 @@ body {
 .contact-links a:hover,
 .contact-links a:focus-visible {
   background: #2b2b2b;
-  color: #faf7f2;
+  color: #E3F2FD;
 }
 
 /* Language toggle: sits in the top corner on the "end" side
@@ -116,7 +116,7 @@ body {
 .lang-toggle:hover,
 .lang-toggle:focus-visible {
   background: #2b2b2b;
-  color: #faf7f2;
+  color: #E3F2FD;
 }
 
 /* Phone width: stack photo above the text */
