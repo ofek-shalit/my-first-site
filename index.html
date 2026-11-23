@@ -3,38 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>אופק שליט</title>
+  <title data-i18n="title">אופק שליט</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <button class="lang-toggle" type="button" id="lang-toggle" lang="en" aria-label="Switch to English">EN</button>
+
   <header class="intro">
-    <img class="intro__photo" src="20261122_152617.jpg" alt="אופק שליט">
+    <img class="intro__photo" src="20261122_152617.jpg" alt="אופק שליט" data-i18n-alt="introAlt">
     <div class="intro__text">
-      <h1>אופק שליט</h1>
-      <p>נעים להכיר, אני אופק, ירושלמית במקור. אני אוהבת ליצור, לעבוד עם הידיים, ולמצוא דרכים לבטא את עצמי דרך אומנות.</p>
+      <h1 data-i18n="name">אופק שליט</h1>
+      <p data-i18n="introText">נעים להכיר, אני אופק, ירושלמית במקור. אני אוהבת ליצור, לעבוד עם הידיים, ולמצוא דרכים לבטא את עצמי דרך אומנות.</p>
     </div>
   </header>
 
   <section class="section">
-    <h2>רקע</h2>
-    <p>האהבה שלי לאמנות התחילה בציור, ובעיקר בציור שמן, שהוא אחד התחומים שהכי מייצגים אותי. מתוך החיבור לצבע, לפרטים וליצירה, התפתח גם העיסוק שלי בעולם הקעקועים.</p>
+    <h2 data-i18n="backgroundTitle">רקע</h2>
+    <p data-i18n="backgroundText">האהבה שלי לאמנות התחילה בציור, ובעיקר בציור שמן, שהוא אחד התחומים שהכי מייצגים אותי. מתוך החיבור לצבע, לפרטים וליצירה, התפתח גם העיסוק שלי בעולם הקעקועים.</p>
   </section>
 
   <section class="section">
-    <h2>הקעקועים שלי</h2>
+    <h2 data-i18n="tattoosTitle">הקעקועים שלי</h2>
     <div class="section__media">
-      <img class="section__photo" src="beetle.jpg" alt="קעקוע חיפושית צבעונית ותלת־ממדית">
-      <p>כיום אני מקעקעת, עם דגש על קעקועי צבע מפורטים, ריאליסטיים וקאברים לקעקועים ישנים. אני אוהבת ליצור עבודות שמשלבות עומק, צבע ודיוק, ולהפוך רעיונות אישיים ליצירות שנשארות על העור. אחד הקעקועים האהובים עליי הוא חיפושית צבעונית, תלת־ממדית וריאליסטית. חיפושית מטפסת מסמלת מזל טוב, ואני אוהבת את המשמעות שהיא מביאה איתה: תנועה, צמיחה והתחלה חדשה.</p>
+      <img class="section__photo" src="beetle.jpg" alt="קעקוע חיפושית צבעונית ותלת־ממדית" data-i18n-alt="tattooAlt">
+      <p data-i18n="tattoosText">כיום אני מקעקעת, עם דגש על קעקועי צבע מפורטים, ריאליסטיים וקאברים לקעקועים ישנים. אני אוהבת ליצור עבודות שמשלבות עומק, צבע ודיוק, ולהפוך רעיונות אישיים ליצירות שנשארות על העור. אחד הקעקועים האהובים עליי הוא חיפושית צבעונית, תלת־ממדית וריאליסטית. חיפושית מטפסת מסמלת מזל טוב, ואני אוהבת את המשמעות שהיא מביאה איתה: תנועה, צמיחה והתחלה חדשה.</p>
     </div>
   </section>
 
   <section class="section">
-    <h2>יצירת קשר</h2>
-    <p>לפרטים, שאלות ותיאום תורים:</p>
+    <h2 data-i18n="contactTitle">יצירת קשר</h2>
+    <p data-i18n="contactText">לפרטים, שאלות ותיאום תורים:</p>
     <ul class="contact-links">
-      <li><a href="https://www.instagram.com/o.s.paint/" target="_blank" rel="noopener">אינסטגרם</a></li>
-      <li><a href="https://github.com/ofek-shalit" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.instagram.com/o.s.paint/" target="_blank" rel="noopener" data-i18n="instagram">אינסטגרם</a></li>
+      <li><a href="https://github.com/ofek-shalit" target="_blank" rel="noopener" data-i18n="github">GitHub</a></li>
     </ul>
   </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
