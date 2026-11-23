@@ -41,6 +41,61 @@ body {
   max-width: 34em;
 }
 
+.section {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px 64px;
+}
+
+.section h2 {
+  margin: 0 0 12px;
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+.section p {
+  margin: 0;
+  font-size: 1.2rem;
+  max-width: 34em;
+}
+
+.section__media {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.section__photo {
+  width: 240px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.contact-links {
+  display: flex;
+  gap: 16px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-links a {
+  display: inline-block;
+  padding: 8px 20px;
+  border: 1px solid #2b2b2b;
+  border-radius: 999px;
+  color: #2b2b2b;
+  font-size: 1.05rem;
+  text-decoration: none;
+}
+
+.contact-links a:hover,
+.contact-links a:focus-visible {
+  background: #2b2b2b;
+  color: #faf7f2;
+}
+
 /* Phone width: stack photo above the text */
 @media (max-width: 640px) {
   .intro {
@@ -61,5 +116,32 @@ body {
 
   .intro p {
     font-size: 1.05rem;
+  }
+
+  .section {
+    padding: 0 16px 40px;
+    text-align: center;
+  }
+
+  .section h2 {
+    font-size: 1.5rem;
+  }
+
+  .section p {
+    margin: 0 auto;
+    font-size: 1.05rem;
+  }
+
+  .section__media {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .section__photo {
+    width: 180px;
+  }
+
+  .contact-links {
+    justify-content: center;
   }
 }
